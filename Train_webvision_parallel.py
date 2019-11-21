@@ -12,7 +12,7 @@ import argparse
 import numpy as np
 from InceptionResNetV2 import *
 from sklearn.mixture import GaussianMixture
-import Dataloader_webvision as dataloader
+import dataloader_webvision as dataloader
 import torchnet
 import torch.multiprocessing as mp
 
