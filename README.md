@@ -10,7 +10,7 @@ Deep neural networks are known to be annotation-hungry. Numerous efforts have be
 
 
 <b>Illustration</b>\
-<img src="./img/framework.jpg">
+<img src="./img/framework.png">
 
 
 <b>Cite DivideMix</b>\
