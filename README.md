@@ -1,7 +1,7 @@
 # DivideMix: Learning with Noisy Labels as Semi-supervised Learning
 PyTorch Code for the following paper:\
 <b>Title</b>: <i>DivideMix: Learning with Noisy Labels as Semi-supervised Learning</i> <a href="https://openreview.net/pdf?id=SkxhErJIvB">[pdf]</a>\
-<b>Authors</b>:\
+<b>Authors</b>:Junnan Li, Steven C.H. Hoi, Richard Socher\
 <b>Institute</b>: Salesforce Research Asia
 
 
@@ -12,6 +12,9 @@ Deep neural networks are known to be annotation-hungry. Numerous efforts have be
 <b>Illustration</b>\
 <img src="./img/framework.png">
 
+<b>Experiments</b>\
+First, please create a folder named <i>checkpoint</i>to store the results.
+Next, run Train_xx.py --data_path <i>path-to-your-data</i>
 
 <b>Cite DivideMix</b>\
 If you find the code useful in your research, please consider citing our paper:
