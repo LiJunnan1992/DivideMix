@@ -13,7 +13,7 @@ Deep neural networks are known to be annotation-hungry. Numerous efforts have be
 <img src="./img/framework.png">
 
 <b>Experiments</b>\
-First, please create a folder named <i>checkpoint</i>to store the results.
+First, please create a folder named <i>checkpoint</i>to store the results.\
 Next, run Train_xx.py --data_path <i>path-to-your-data</i>
 
 <b>Cite DivideMix</b>\
