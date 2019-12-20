@@ -18,3 +18,11 @@ Next, run <b>python Train_xx.py --data_path <i>path-to-your-data</i></b>
 
 <b>Cite DivideMix</b>\
 If you find the code useful in your research, please consider citing our paper:
+
+@inproceedings{\
+li2020dividemix,\
+title={DivideMix: Learning with Noisy Labels as Semi-supervised Learning},\
+author={Junnan Li and Steven C.H. Hoi and Richard Socher},\
+booktitle={International Conference on Learning Representations},\
+year={2020},\
+}
