@@ -22,11 +22,11 @@ Next, run \
 If you find the code useful in your research, please consider citing our paper:
 
 <code>
-@inproceedings{\
-    li2020dividemix,\
-    title={DivideMix: Learning with Noisy Labels as Semi-supervised Learning},\
-    author={Junnan Li and Steven C.H. Hoi and Richard Socher},\
-    booktitle={International Conference on Learning Representations},\
-    year={2020},\
+@inproceedings{<br />
+    li2020dividemix,<br />
+    title={DivideMix: Learning with Noisy Labels as Semi-supervised Learning},<br />
+    author={Junnan Li and Steven C.H. Hoi and Richard Socher},<br />
+    booktitle={International Conference on Learning Representations},<br />
+    year={2020},<br />
 }
 </code>
