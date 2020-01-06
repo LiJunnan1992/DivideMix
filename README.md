@@ -14,12 +14,14 @@ Deep neural networks are known to be annotation-hungry. Numerous efforts have be
 
 <b>Experiments</b>\
 First, please create a folder named <i>checkpoint</i> to store the results.\
+<code>mkdir checkpoint</code>\
 Next, run \
-<code>python Train_xx.py --data_path <i>path-to-your-data</i></code>
+<code>python Train_{dataset_name}.py --data_path <i>path-to-your-data</i></code>
 
 <b>Cite DivideMix</b>\
 If you find the code useful in your research, please consider citing our paper:
 
+<code>
 @inproceedings{\
     li2020dividemix,\
     title={DivideMix: Learning with Noisy Labels as Semi-supervised Learning},\
@@ -27,3 +29,4 @@ If you find the code useful in your research, please consider citing our paper:
     booktitle={International Conference on Learning Representations},\
     year={2020},\
 }
+</code>
