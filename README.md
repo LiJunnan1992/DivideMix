@@ -14,7 +14,8 @@ Deep neural networks are known to be annotation-hungry. Numerous efforts have be
 
 <b>Experiments</b>\
 First, please create a folder named <i>checkpoint</i> to store the results.\
-Next, run <b>python Train_xx.py --data_path <i>path-to-your-data</i></b>
+Next, run \
+<code>python Train_xx.py --data_path <i>path-to-your-data</i></code>
 
 <b>Cite DivideMix</b>\
 If you find the code useful in your research, please consider citing our paper:
