@@ -25,7 +25,7 @@ If you find the code useful in your research, please consider citing our paper:
 @inproceedings{
     li2020dividemix,
     title={DivideMix: Learning with Noisy Labels as Semi-supervised Learning},
-    author={Junnan Li and Steven C.H. Hoi and Richard Socher},
+    author={Junnan Li and Richard Socher and Steven C.H. Hoi},
     booktitle={International Conference on Learning Representations},
     year={2020},
 }</pre>
