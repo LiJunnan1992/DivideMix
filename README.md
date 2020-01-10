@@ -29,3 +29,6 @@ If you find the code useful in your research, please consider citing our paper:
     booktitle={International Conference on Learning Representations},
     year={2020},
 }</pre>
+
+<b>License</b>\
+This project is licensed under the terms of the MIT license.
