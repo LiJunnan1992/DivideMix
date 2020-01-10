@@ -1,7 +1,7 @@
 # DivideMix: Learning with Noisy Labels as Semi-supervised Learning
 PyTorch Code for the following paper:\
 <b>Title</b>: <i>DivideMix: Learning with Noisy Labels as Semi-supervised Learning</i> <a href="https://openreview.net/pdf?id=HJgExaVtwr">[pdf]</a>\
-<b>Authors</b>:Junnan Li, Steven C.H. Hoi, Richard Socher\
+<b>Authors</b>:Junnan Li, Richard Socher, Steven C.H. Hoi\
 <b>Institute</b>: Salesforce Research
 
 
