@@ -26,8 +26,8 @@ parser.add_argument('--T', default=0.5, type=float, help='sharpening temperature
 parser.add_argument('--num_epochs', default=100, type=int)
 parser.add_argument('--id', default='',type=str)
 parser.add_argument('--seed', default=123)
-parser.add_argument('--gpuid1', default=1, type=int)
-parser.add_argument('--gpuid2', default=2, type=int)
+parser.add_argument('--gpuid1', default=0, type=int)
+parser.add_argument('--gpuid2', default=1, type=int)
 parser.add_argument('--num_class', default=50, type=int)
 parser.add_argument('--data_path', default='./dataset/', type=str, help='path to dataset')
 

@@ -114,13 +114,15 @@ class webvision_dataloader():
         self.log = log
 
         self.transform_train = transforms.Compose([
-                transforms.RandomCrop(227),
+                transforms.Resize(320),
+                transforms.CenterCrop(299),
                 transforms.RandomHorizontalFlip(),
                 transforms.ToTensor(),
                 transforms.Normalize((0.485, 0.456, 0.406),(0.229, 0.224, 0.225)),
             ]) 
         self.transform_test = transforms.Compose([
-                transforms.CenterCrop(227),
+                transforms.Resize(320),
+                transforms.CenterCrop(299),
                 transforms.ToTensor(),
                 transforms.Normalize((0.485, 0.456, 0.406),(0.229, 0.224, 0.225)),
             ])  

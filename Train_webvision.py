@@ -25,7 +25,7 @@ parser.add_argument('--T', default=0.5, type=float, help='sharpening temperature
 parser.add_argument('--num_epochs', default=80, type=int)
 parser.add_argument('--id', default='',type=str)
 parser.add_argument('--seed', default=123)
-parser.add_argument('--gpuid', default=7, type=int)
+parser.add_argument('--gpuid', default=0, type=int)
 parser.add_argument('--num_class', default=50, type=int)
 parser.add_argument('--data_path', default='./dataset/', type=str, help='path to dataset')
 
@@ -211,7 +211,7 @@ test_log=open('./checkpoint/%s'%(args.id)+'_acc.txt','w')
 
 warm_up=1
 
-loader = dataloader.webvision_dataloader(batch_size=args.batch_size,num_workers=5,root_dir=args.data_path,log=stats_log)
+loader = dataloader.webvision_dataloader(batch_size=args.batch_size,num_workers=5,root_dir=args.data_path,log=stats_log, num_class=args.num_class)
 
 print('| Building net')
 net1 = create_model()
